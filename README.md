@@ -1,2 +1,1 @@
-# R3-Ganhei-
-Site officiel R3 Ganhei Dinheiro Real 
+https://github.com/tchaly9k-sudo/R3-Ganhei-.git
