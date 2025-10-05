@@ -1,0 +1,50 @@
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>R3 Ganhei Dinheiro Real</title>
+  <style>
+    body {
+      background-color: black;
+      color: gold;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    input, select {
+      margin: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background: gold;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue dans le jeu 🎮</h1>
+  <form action="https://api.whatsapp.com/send" method="get" target="_blank">
+    <input type="hidden" name="phone" value="50931911704">
+    <input type="text" name="Nom" placeholder="Nom" required><br>
+    <input type="text" name="Prenom" placeholder="Prénom" required><br>
+    <input type="number" name="Age" placeholder="Âge" required><br>
+    <select name="Peyi">
+      <option value="Haiti">Haïti</option><option value="Autre">Autre</option>
+    </select><br>
+    <select name="Paiement">
+      <option value="MonCash">MonCash</option>
+      <option value="NatCash">NatCash</option>
+    </select><br>
+    <button type="submit">Valider et Commencer</button>
+  </form>
+</body>
+</html>
+```
